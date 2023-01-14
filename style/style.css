@@ -7,7 +7,7 @@
 .header-container{
         background-color: antiquewhite;
         width: 100%;
-        height: 1300px;   
+        height: 1400px;   
 }
 
 
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     gap: 900px;
-    padding: 100px 0px;
+    padding: 70px 0px;
 }
 
 .header-subtitle{
@@ -24,21 +24,30 @@
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
+    position: relative;
+    left: 200px;
+   width: 300px;
 }
 
 .nav-bar{
     font-size: 20;
+    position: relative;
+    right: 200px;
+
 }
 
 
 nav ul{
     display: flex;
+ align-items: center;
+
 }
 ul li {
     list-style: none;
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
     color: black;
+    
 }
 
 li a{
@@ -52,10 +61,105 @@ li a{
     text-align: center;
     position: relative;
     top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
 
 .bannar-title{
-    background-color: aqua;
-    font-size: 45px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    padding-bottom: 20px;
+  
 }
+
+.bannar-subtitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+.bannar-btn{
+
+    width: 180px;
+    height: 64px;
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+background: #FF900E;
+border-radius: 8px;
+color: #FFFFFF;
+border: none;
+position:relative;
+bottom: 20px;
+
+    
+}
+
+
+ /*------------------------ 
+ media quray style 
+ ---------------------- */
+
+@media screen and (  max-width:576px ) {
+   .header-container{
+    height:100%;
+    width: 100%;
+
+   }
+.header-1{
+    flex-direction: column;
+    display: inline;
+  
+}
+ .header-subtitle{
+ position: relative;
+ left: 0px;
+
+
+ }
+.nav-bar{
+    position: relative;
+    right: 150px;
+  
+
+}
+
+ nav ul{
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    
+ }
+ .bannar{
+    display: block;
+    text-align:center ;
+ }
+.bannar img{
+     height:300px;
+    width: 400px; 
+    
+} 
+
+}
+
+/* -------------------------------
+          ending of header
+----------- --------------------- */
+
