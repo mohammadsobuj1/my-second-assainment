@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: rgba(255, 144, 14, 0.1);
+}
 
 /* header style  */
 .header-container{
@@ -118,11 +121,13 @@ bottom: 20px;
  ---------------------- */
 
 @media screen and (  max-width:576px ) {
-   /* .header-container{
+    
+    
+    .header-container{
     height:100%;
     width: 100%;
 
-   } */
+   } 
 .header-1{
     flex-direction: column;
     display: inline;
@@ -165,33 +170,58 @@ bottom: 20px;
 
 
 
-
-
-
-
-
-
 .meddle{
     flex-direction: column;
-  
+   width: 300px;
+
 }
 
-.med-img {
-    position: relative;
-    top: 1000px;
-    width: 100%;
-    height: 100%;
-}
+
+   
+
+ .med-img{
+    position:relative;
+    top: 800px;
+ }
+    
+
+
+
+
 .extra{
     position: relative;
-    top: 10px;
+    top: 0px;
+    bottom: 20px;
     right: 610px;
 }
   
 
+ .container{
+   flex-direction: column;
+  position:absolute;
+ right: 0;
+ padding-top: 1100px ;
 
+} 
+
+.some-fact{
+    height: 400px;
+    position: relative;
+    right: 200px;
+     padding-top: 800px;
+      text-align: justify;
+
+
+
+} 
+
+
+.sponcer-icons{
+    flex-direction: column;
 }
 
+
+}
 /* -------------------------------
           ending of header
 ----------- --------------------- */
@@ -208,16 +238,16 @@ bottom: 20px;
     
 
 }
-
+ 
 .container-1{
-     display: grid; 
+  display: grid; 
     grid-template-columns: repeat(2,1fr);
    position: relative;
    left: 80px;
    top: 50px;
     gap: 10px; 
   
-}
+} 
 
 .container-2{
  padding-left: 70px;
@@ -307,13 +337,14 @@ left: 50px;
 
 .med-div{
     
-background:#FFFFFF;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+background-color:#FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-  height:  100px;
+ height:  80px;
 width: 586px;
 text-align: justify;
 padding: 50px;
+gap: 10px;
 
 }
 
@@ -400,3 +431,125 @@ color: #727272;
 
 
 
+/* ------------------
+    container style 
+------------------------- */
+
+
+.container{
+ position: absolute;
+left: 150px;
+top: 3300.08px;
+display: flex;
+width: 1000px;
+height: 500px;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.box{
+    
+border: 1px solid #fab463;
+width: 180px;
+height: 150px;
+align-items: center;
+text-align: center;
+padding-top: 10px;
+color: #727272;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+
+
+}
+
+/* ----------------
+ emd box style 
+------------------- *
+
+
+
+/*---------------- 
+sponcer style 
+------------------- */
+.sponcer{
+    position: relative;
+    top: 800px;
+    
+}
+
+.sponcer-head{
+text-align: center;
+
+
+}
+
+.sponcer-title{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 53px;
+padding-bottom: 10px;
+color: #131313;
+}
+
+.sponcer-h{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+width: 542px;
+height: 52px;
+position: relative;
+
+left: 420px;
+
+}
+
+
+.sponcer-icons{
+    display: flex;
+    mix-blend-mode: luminosity;
+    justify-content:space-evenly;
+    position: relative;
+    top: 100px;
+}
+
+.sponcer-icons img{
+    
+        filter: grayscale(100%);
+      
+}
+
+/* ---------------------
+        sponcer style end -------------
+-------------------- */
+
+
+footer{
+    width: 800px;
+height: 100px;
+background: #f0e0ce;
+
+line-height: 23px;
+text-align: center;
+position: relative;
+top: 1000px;
+left: 300px;
+
+}
+
+.footer-p{
+    border-radius: 8px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+padding-top: 20px;
+color: #424242;
+}
