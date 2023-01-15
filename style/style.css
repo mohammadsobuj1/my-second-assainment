@@ -7,7 +7,7 @@
 .header-container{
         background-color: antiquewhite;
         width: 100%;
-        height: 1400px;   
+        height: 1200px;   
 }
 
 
@@ -118,11 +118,11 @@ bottom: 20px;
  ---------------------- */
 
 @media screen and (  max-width:576px ) {
-   .header-container{
+   /* .header-container{
     height:100%;
     width: 100%;
 
-   }
+   } */
 .header-1{
     flex-direction: column;
     display: inline;
@@ -157,9 +157,246 @@ bottom: 20px;
     
 } 
 
+.container-1{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+.meddle{
+    flex-direction: column;
+  
+}
+
+.med-img {
+    position: relative;
+    top: 1000px;
+    width: 100%;
+    height: 100%;
+}
+.extra{
+    position: relative;
+    top: 10px;
+    right: 610px;
+}
+  
+
+
 }
 
 /* -------------------------------
           ending of header
 ----------- --------------------- */
+
+
+/*----------------------
+ main section start 
+---------------------------- */
+
+.quck-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.container-1{
+     display: grid; 
+    grid-template-columns: repeat(2,1fr);
+   position: relative;
+   left: 80px;
+   top: 50px;
+    gap: 10px; 
+  
+}
+
+.container-2{
+ padding-left: 70px;
+ 
+  
+  
+}
+
+.contain-2title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+width: 460px;
+position: relative;
+bottom: 40px;
+}
+.ctn-row1{
+    color: #727272;
+}
+.ctn-row2{
+    
+color: #FF900E;
+}
+
+
+.container-p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-bottom: 30px;
+width: 400px;
+}
+
+
+/*--------------
+ meddle section 
+------------------ */
+.meddle{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    top: 200px;
+    left: 50px;
+}
+
+
+.meddle-title{
+    padding-top: 100px;
+    width: 468px;
+    height: 106px;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+
+.meddle-heading{
+padding: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+border-left: 5px solid#FF900E;
+position: relative;
+left: 50px;
+
+}
+
+.meddle-p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+position: relative;
+left: 50px;
+
+}
+
+
+.med-div{
+    
+background:#FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+  height:  100px;
+width: 586px;
+text-align: justify;
+padding: 50px;
+
+}
+
+.med-divh{
+ font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+padding-bottom: 5px;
+}
+
+.med-p{
+
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+height: 78px;
+width: 514px;
+}
+
+.extra-btn{
+position: absolute;
+width: 342px;
+height: 200px;
+top: 780px;
+left: 640px;
+font-size: 20px;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+color: #FFFFFF;
+}
+
+.med-img{
+    width: 708px;
+height: 982px;
+}
+
+
+.extra-btn1{
+   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 70px;
+   
+}
+
+/* -- ---- <!-- ---------------------
+                    -meddle section end
+                ------------------------- -->----------------- */
+
+
+
+.some-fact{
+    position: relative;
+    left: 250px;
+    top: 400px;
+}
+
+.some-title{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+
+
+.some-p{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width: 542px;
+height: 52px;
+color: #727272;
+}
+
+
 
